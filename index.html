@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="./script.js"></script>
+    <main>
+        <h1>Letreco do Faige</h1>
+        <div>
+            <div>
+                <!--Primeira fileira de letras-->
+                <input type="text" id="L1"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L2')">
+                <input type="text" id="L2"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L3')">
+                <input type="text" id="L3"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L4')">
+                <input type="text" id="L4"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L5')">
+                <input type="text" id="L5"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L6')">
+            </div>
+
+            <div>
+                <!--Segunda fileira de letras-->
+                <input type="text" id="L6"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L7')" disabled>
+                <input type="text" id="L7"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L8')" disabled>
+                <input type="text" id="L8"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L9')" disabled>
+                <input type="text" id="L9"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L10')" disabled>
+                <input type="text" id="L10"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L11')" disabled>
+            </div>
+
+            <div>
+                <!--Terceira fileira de letras-->
+                <input type="text" id="L11"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L12')" disabled>
+                <input type="text" id="L12"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L13')" disabled>
+                <input type="text" id="L13"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L14')" disabled>
+                <input type="text" id="L14"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L15')" disabled>
+                <input type="text" id="L15"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L16')" disabled>
+            </div>
+
+            <div>
+                <!--Quarta fileira de letras-->
+                <input type="text" id="L16"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L17')" disabled>
+                <input type="text" id="L17"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L18')" disabled>
+                <input type="text" id="L18"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L19')" disabled>
+                <input type="text" id="L19"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L20')" disabled>
+                <input type="text" id="L20"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L21')" disabled>
+            </div>
+
+            <div>
+                <!--Quinta fileira de letras-->
+                <input type="text" id="L21"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L22')" disabled>
+                <input type="text" id="L22"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L23')" disabled>
+                <input type="text" id="L23"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L24')" disabled>
+                <input type="text" id="L24"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L25')" disabled>
+                <input type="text" id="L25"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L26')" disabled>
+            </div>
+
+            <div>
+                <!--Sexta fileira de letras-->
+                <input type="text" id="L26"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L27')" disabled>
+                <input type="text" id="L27"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L28')" disabled>
+                <input type="text" id="L28"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L29')" disabled>
+                <input type="text" id="L29"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L30')" disabled>
+                <input type="text" id="L30"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L26')" disabled>
+            </div>
+            <br>
+            <button onclick="localizar()" id="bttn">CONFIRMAR</button>
+            <button onclick="localizar2()" id="bttn2">CONFIRMAR</button>
+            <button onclick="localizar3()" id="bttn3">CONFIRMAR</button>
+            <button onclick="localizar4()" id="bttn4">CONFIRMAR</button>
+            <button onclick="localizar5()" id="bttn5">CONFIRMAR</button>
+            <button onclick="localizar6()" id="bttn6">CONFIRMAR</button>
+        </div>
+    </main>
+</body>
+</html>
