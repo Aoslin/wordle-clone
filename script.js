@@ -1,5 +1,5 @@
 //Palavra certa
-var palavraCerta = ["b", "u", "f", "a", "s"]
+var palavraCerta = ["a", "t", "r", "i", "z"]
 
 //Função para trocar para o próximo input quando alguma letra for digitada
 function trocarPosicao(field, autoMove){
