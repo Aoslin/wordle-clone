@@ -37,6 +37,26 @@ div input{
 div input:hover{
     cursor: pointer;
 }
+
+.inp2{
+    background-color: #4C4347;
+}
+
+.inp3{
+    background-color: #4C4347;
+}
+
+.inp4{
+    background-color: #4C4347;
+}
+
+.inp5{
+    background-color: #4C4347;
+}
+
+.inp6{
+    background-color: #4C4347;
+}
 /*Inputs*/
 
 /*Alinhamento dos itens*/
@@ -141,6 +161,24 @@ main{
     padding-top: 12px;
     padding-bottom: 12px;
     display: none;
+}
+
+#resultado{
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: -15px;
+}
+
+#resul{
+    max-width: 240px;
 }
 
 @media (max-width: 520px)
