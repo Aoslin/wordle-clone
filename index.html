@@ -10,60 +10,67 @@
 <body>
     <script src="./script.js"></script>
     <main>
-        <h1>Letreco do Faige</h1>
+        <h1>Letreco Clone</h1>
         <div>
             <div>
+                <center>
+                    <div id="resul">
+                        <p id="resultado"></p>
+                    </div>
+                </center>
+            </div>
+            <div>
                 <!--Primeira fileira de letras-->
-                <input type="text" id="L1"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L2')"  autocapitalize="off">
-                <input type="text" id="L2"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L3')" autocapitalize="off">
-                <input type="text" id="L3"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L4')" autocapitalize="off">
-                <input type="text" id="L4"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L5')" autocapitalize="off">
-                <input type="text" id="L5"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L6')" autocapitalize="off">
+                <input type="text" id="L1"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L2')" autocapitalize="none">
+                <input type="text" id="L2"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L3')" autocapitalize="none">
+                <input type="text" id="L3"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L4')" autocapitalize="none">
+                <input type="text" id="L4"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L5')" autocapitalize="none">
+                <input type="text" id="L5"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L6')" autocapitalize="none">
             </div>
 
             <div>
                 <!--Segunda fileira de letras-->
-                <input type="text" id="L6"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L7')" disabled autocapitalize="off">
-                <input type="text" id="L7"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L8')" disabled autocapitalize="off">
-                <input type="text" id="L8"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L9')" disabled autocapitalize="off">
-                <input type="text" id="L9"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L10')" disabled autocapitalize="off">
-                <input type="text" id="L10"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L11')" disabled autocapitalize="off">
+                <input type="text" id="L6" class="inp2"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L7')" disabled autocapitalize="none">
+                <input type="text" id="L7" class="inp2" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L8')" disabled autocapitalize="none">
+                <input type="text" id="L8" class="inp2" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L9')" disabled autocapitalize="none">
+                <input type="text" id="L9" class="inp2" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L10')" disabled autocapitalize="none">
+                <input type="text" id="L10" class="inp2" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L11')" disabled autocapitalize="none">
             </div>
 
             <div>
                 <!--Terceira fileira de letras-->
-                <input type="text" id="L11"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L12')" disabled autocapitalize="off">
-                <input type="text" id="L12"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L13')" disabled autocapitalize="off">
-                <input type="text" id="L13"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L14')" disabled autocapitalize="off">
-                <input type="text" id="L14"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L15')" disabled autocapitalize="off">
-                <input type="text" id="L15"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L16')" disabled autocapitalize="off">
+                <input type="text" id="L11" class="inp3" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L12')" disabled autocapitalize="none">
+                <input type="text" id="L12" class="inp3" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L13')" disabled autocapitalize="none">
+                <input type="text" id="L13" class="inp3" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L14')" disabled autocapitalize="none">
+                <input type="text" id="L14" class="inp3" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L15')" disabled autocapitalize="none">
+                <input type="text" id="L15" class="inp3" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L16')" disabled autocapitalize="none">
             </div>
 
             <div>
                 <!--Quarta fileira de letras-->
-                <input type="text" id="L16"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L17')" disabled autocapitalize="off">
-                <input type="text" id="L17"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L18')" disabled autocapitalize="off">
-                <input type="text" id="L18"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L19')" disabled autocapitalize="off">
-                <input type="text" id="L19"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L20')" disabled autocapitalize="off">
-                <input type="text" id="L20"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L21')" disabled autocapitalize="off">
+                <input type="text" id="L16" class="inp4" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L17')" disabled autocapitalize="none">
+                <input type="text" id="L17" class="inp4" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L18')" disabled autocapitalize="none">
+                <input type="text" id="L18" class="inp4" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L19')" disabled autocapitalize="none">
+                <input type="text" id="L19" class="inp4" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L20')" disabled autocapitalize="none">
+                <input type="text" id="L20" class="inp4" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L21')" disabled autocapitalize="none">
             </div>
 
             <div>
                 <!--Quinta fileira de letras-->
-                <input type="text" id="L21"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L22')" disabled autocapitalize="off">
-                <input type="text" id="L22"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L23')" disabled autocapitalize="off">
-                <input type="text" id="L23"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L24')" disabled autocapitalize="off">
-                <input type="text" id="L24"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L25')" disabled autocapitalize="off">
-                <input type="text" id="L25"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L26')" disabled autocapitalize="off">
+                <input type="text" id="L21" class="inp5" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L22')" disabled autocapitalize="none">
+                <input type="text" id="L22" class="inp5" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L23')" disabled autocapitalize="none">
+                <input type="text" id="L23" class="inp5" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L24')" disabled autocapitalize="none">
+                <input type="text" id="L24" class="inp5" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L25')" disabled autocapitalize="none">
+                <input type="text" id="L25" class="inp5" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L26')" disabled autocapitalize="none">
             </div>
 
             <div>
                 <!--Sexta fileira de letras-->
-                <input type="text" id="L26"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L27')" disabled autocapitalize="off">
-                <input type="text" id="L27"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L28')" disabled autocapitalize="off">
-                <input type="text" id="L28"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L29')" disabled autocapitalize="off">
-                <input type="text" id="L29"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L30')" disabled autocapitalize="off">
-                <input type="text" id="L30"  maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L26')" disabled autocapitalize="off">
+                <input type="text" id="L26" class="inp6" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L27')" disabled autocapitalize="none">
+                <input type="text" id="L27" class="inp6" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L28')" disabled autocapitalize="none">
+                <input type="text" id="L28" class="inp6" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L29')" disabled autocapitalize="none">
+                <input type="text" id="L29" class="inp6" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L30')" disabled autocapitalize="none">
+                <input type="text" id="L30" class="inp6" maxlength="1" autocomplete="off" onkeyup="trocarPosicao(this, 'L26')" disabled autocapitalize="none">
             </div>
             <br>
             <button onclick="localizar()" id="bttn">CONFIRMAR</button>
