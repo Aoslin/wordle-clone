@@ -26,60 +26,88 @@ function localizar(){
 
 
     //Condicionais para verificar se o posicionamento das letras está correto
-    if(posicaol1 == -1){
-        document.getElementById("L1").style.backgroundColor = "red"
-    }else if(posicaol1 == 0 || l1 == palavraCerta[0]){
-        document.getElementById("L1").style.backgroundColor = "green"
+    if(l1 != "" && l2 != "" && l3 != "" && l4 != "" && l5 != ""){
+        if(posicaol1 == -1){
+            document.getElementById("L1").style.backgroundColor = "red"
+        }else if(posicaol1 == 0 || l1 == palavraCerta[0]){
+            document.getElementById("L1").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L1").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol2 == -1){
+            document.getElementById("L2").style.backgroundColor = "red"
+        }else if(posicaol2 == 1 || l2 == palavraCerta[1]){
+            document.getElementById("L2").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L2").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol3 == -1){
+            document.getElementById("L3").style.backgroundColor = "red"
+        }else if(posicaol3 == 2 || l3 == palavraCerta[2]){
+            document.getElementById("L3").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L3").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol4 == -1){
+            document.getElementById("L4").style.backgroundColor = "red"
+        }else if(posicaol4 == 3 || l4 == palavraCerta[3]){
+            document.getElementById("L4").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L4").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol5 == -1){
+            document.getElementById("L5").style.backgroundColor = "red"
+        }else if(posicaol5 == 4 || l5 == palavraCerta[4]){
+            document.getElementById("L5").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L5").style.backgroundColor = "#D3AD69"
+        }
+
+        document.getElementById("L1").disabled = true
+        document.getElementById("L2").disabled = true
+        document.getElementById("L3").disabled = true
+        document.getElementById("L4").disabled = true
+        document.getElementById("L5").disabled = true
+    
+        document.getElementById("L6").disabled = false
+        document.getElementById("L7").disabled = false
+        document.getElementById("L8").disabled = false
+        document.getElementById("L9").disabled = false
+        document.getElementById("L10").disabled = false
+    
+        document.getElementById("L6").style.backgroundColor = "transparent"
+        document.getElementById("L7").style.backgroundColor = "transparent"
+        document.getElementById("L8").style.backgroundColor = "transparent"
+        document.getElementById("L9").style.backgroundColor = "transparent"
+        document.getElementById("L10").style.backgroundColor = "transparent"
+    
+        document.getElementById("bttn").style.display = "none"
+        document.getElementById("bttn2").style.display = "inline"
+
     }else{
-        document.getElementById("L1").style.backgroundColor = "#D3AD69"
+        alert("Preencha todos os campos")
     }
+    setTimeout(() => {if((posicaol1 == 0 || l1 == palavraCerta[0]) && (posicaol2 == 1 || l2 == palavraCerta[1]) && (posicaol3 == 2 || l3 == palavraCerta[2]) 
+        && (posicaol4 == 3 || l4 == palavraCerta[3]) && (posicaol5 == 4 || l5 == palavraCerta[4]) ){
+            document.getElementById("resultado").innerText = "Você acertou"
+            document.getElementById("resultado").style.backgroundColor = "green"
 
-    if(posicaol2 == -1){
-        document.getElementById("L2").style.backgroundColor = "red"
-    }else if(posicaol2 == 1 || l2 == palavraCerta[1]){
-        document.getElementById("L2").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L2").style.backgroundColor = "#D3AD69"
-    }
+            document.getElementById("L6").disabled = true
+            document.getElementById("L7").disabled = true
+            document.getElementById("L8").disabled = true
+            document.getElementById("L9").disabled = true
+            document.getElementById("L10").disabled = true
 
-    if(posicaol3 == -1){
-        document.getElementById("L3").style.backgroundColor = "red"
-    }else if(posicaol3 == 2 || l3 == palavraCerta[2]){
-        document.getElementById("L3").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L3").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol4 == -1){
-        document.getElementById("L4").style.backgroundColor = "red"
-    }else if(posicaol4 == 3 || l4 == palavraCerta[3]){
-        document.getElementById("L4").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L4").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol5 == -1){
-        document.getElementById("L5").style.backgroundColor = "red"
-    }else if(posicaol5 == 4 || l5 == palavraCerta[4]){
-        document.getElementById("L5").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L5").style.backgroundColor = "#D3AD69"
-    }
-
-    document.getElementById("L1").disabled = true
-    document.getElementById("L2").disabled = true
-    document.getElementById("L3").disabled = true
-    document.getElementById("L4").disabled = true
-    document.getElementById("L5").disabled = true
-
-    document.getElementById("L6").disabled = false
-    document.getElementById("L7").disabled = false
-    document.getElementById("L8").disabled = false
-    document.getElementById("L9").disabled = false
-    document.getElementById("L10").disabled = false
-
-    document.getElementById("bttn").style.display = "none"
-    document.getElementById("bttn2").style.display = "inline"
+            document.getElementById("L6").style.backgroundColor = "#4C4347"
+            document.getElementById("L7").style.backgroundColor = "#4C4347"
+            document.getElementById("L8").style.backgroundColor = "#4C4347"
+            document.getElementById("L9").style.backgroundColor = "#4C4347"
+            document.getElementById("L10").style.backgroundColor = "#4C4347"
+        }}, 0)
 }
 
 
@@ -102,60 +130,87 @@ function localizar2(){
 
 
     //Condicionais para verificar se o posicionamento das letras está correto
-    if(posicaol6 == -1){
-        document.getElementById("L6").style.backgroundColor = "red"
-    }else if(posicaol6 == 0 || l6 == palavraCerta[0]){
-        document.getElementById("L6").style.backgroundColor = "green"
+    if(l6 != "" && l7 != "" && l8 != "" && l9 != "" && l10 != ""){
+        if(posicaol6 == -1){
+            document.getElementById("L6").style.backgroundColor = "red"
+        }else if(posicaol6 == 0 || l6 == palavraCerta[0]){
+            document.getElementById("L6").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L6").style.backgroundColor = "#D3AD69"
+        }
+    
+        if(posicaol7 == -1){
+            document.getElementById("L7").style.backgroundColor = "red"
+        }else if(posicaol7 == 1 || l7 == palavraCerta[1]){
+            document.getElementById("L7").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L7").style.backgroundColor = "#D3AD69"
+        }
+    
+        if(posicaol8 == -1){
+            document.getElementById("L8").style.backgroundColor = "red"
+        }else if(posicaol8 == 2 || l8 == palavraCerta[2]){
+            document.getElementById("L8").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L8").style.backgroundColor = "#D3AD69"
+        }
+    
+        if(posicaol9 == -1){
+            document.getElementById("L9").style.backgroundColor = "red"
+        }else if(posicaol9 == 3 || l9 == palavraCerta[3]){
+            document.getElementById("L9").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L9").style.backgroundColor = "#D3AD69"
+        }
+    
+        if(posicaol10 == -1){
+            document.getElementById("L10").style.backgroundColor = "red"
+        }else if(posicaol10 == 4 || l10 == palavraCerta[4]){
+            document.getElementById("L10").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L10").style.backgroundColor = "#D3AD69"
+        }
+    
+        document.getElementById("L6").disabled = true
+        document.getElementById("L7").disabled = true
+        document.getElementById("L8").disabled = true
+        document.getElementById("L9").disabled = true
+        document.getElementById("L10").disabled = true
+    
+        document.getElementById("L11").disabled = false
+        document.getElementById("L12").disabled = false
+        document.getElementById("L13").disabled = false
+        document.getElementById("L14").disabled = false
+        document.getElementById("L15").disabled = false
+    
+        document.getElementById("L11").style.backgroundColor = "transparent"
+        document.getElementById("L12").style.backgroundColor = "transparent"
+        document.getElementById("L13").style.backgroundColor = "transparent"
+        document.getElementById("L14").style.backgroundColor = "transparent"
+        document.getElementById("L15").style.backgroundColor = "transparent"
+    
+        document.getElementById("bttn2").style.display = "none"
+        document.getElementById("bttn3").style.display = "inline"
     }else{
-        document.getElementById("L6").style.backgroundColor = "#D3AD69"
+        alert("Preencha todos os campos")
     }
+    setTimeout(() => {if((posicaol6 == 0 || l6 == palavraCerta[0]) && (posicaol7 == 1 || l7 == palavraCerta[1]) && (posicaol8 == 2 || l8 == palavraCerta[2]) 
+        && (posicaol9 == 3 || l9 == palavraCerta[3]) && (posicaol10 == 4 || l10 == palavraCerta[4]) ){
+            document.getElementById("resultado").innerText = "Você acertou"
+            document.getElementById("resultado").style.backgroundColor = "green"
 
-    if(posicaol7 == -1){
-        document.getElementById("L7").style.backgroundColor = "red"
-    }else if(posicaol7 == 1 || l7 == palavraCerta[1]){
-        document.getElementById("L7").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L7").style.backgroundColor = "#D3AD69"
-    }
+            document.getElementById("L11").disabled = true
+            document.getElementById("L12").disabled = true
+            document.getElementById("L13").disabled = true
+            document.getElementById("L14").disabled = true
+            document.getElementById("L15").disabled = true
 
-    if(posicaol8 == -1){
-        document.getElementById("L8").style.backgroundColor = "red"
-    }else if(posicaol8 == 2 || l8 == palavraCerta[2]){
-        document.getElementById("L8").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L8").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol9 == -1){
-        document.getElementById("L9").style.backgroundColor = "red"
-    }else if(posicaol9 == 3 || l9 == palavraCerta[3]){
-        document.getElementById("L9").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L9").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol10 == -1){
-        document.getElementById("L10").style.backgroundColor = "red"
-    }else if(posicaol10 == 4 || l10 == palavraCerta[4]){
-        document.getElementById("L10").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L10").style.backgroundColor = "#D3AD69"
-    }
-
-    document.getElementById("L6").disabled = true
-    document.getElementById("L7").disabled = true
-    document.getElementById("L8").disabled = true
-    document.getElementById("L9").disabled = true
-    document.getElementById("L10").disabled = true
-
-    document.getElementById("L11").disabled = false
-    document.getElementById("L12").disabled = false
-    document.getElementById("L13").disabled = false
-    document.getElementById("L14").disabled = false
-    document.getElementById("L15").disabled = false
-
-    document.getElementById("bttn2").style.display = "none"
-    document.getElementById("bttn3").style.display = "inline"
+            document.getElementById("L11").style.backgroundColor = "#4C4347"
+            document.getElementById("L12").style.backgroundColor = "#4C4347"
+            document.getElementById("L13").style.backgroundColor = "#4C4347"
+            document.getElementById("L14").style.backgroundColor = "#4C4347"
+            document.getElementById("L15").style.backgroundColor = "#4C4347"
+        }}, 0)
 }
 
 
@@ -178,60 +233,87 @@ function localizar3(){
 
 
     //Condicionais para verificar se o posicionamento das letras está correto
-    if(posicaol11 == -1){
-        document.getElementById("L11").style.backgroundColor = "red"
-    }else if(posicaol11 == 0 || l11 == palavraCerta[0]){
-        document.getElementById("L11").style.backgroundColor = "green"
+    if(l11 != "" && l12 != "" && l13 != "" && l14 != "" && l15 != ""){
+        if(posicaol11 == -1){
+            document.getElementById("L11").style.backgroundColor = "red"
+        }else if(posicaol11 == 0 || l11 == palavraCerta[0]){
+            document.getElementById("L11").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L11").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol12 == -1){
+            document.getElementById("L12").style.backgroundColor = "red"
+        }else if(posicaol12 == 1 || l12 == palavraCerta[1]){
+            document.getElementById("L12").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L12").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol13 == -1){
+            document.getElementById("L13").style.backgroundColor = "red"
+        }else if(posicaol13 == 2 || l13 == palavraCerta[2]){
+            document.getElementById("L13").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L13").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol14 == -1){
+            document.getElementById("L14").style.backgroundColor = "red"
+        }else if(posicaol14 == 3 || l14 == palavraCerta[3]){
+            document.getElementById("L14").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L14").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol15 == -1){
+            document.getElementById("L15").style.backgroundColor = "red"
+        }else if(posicaol15 == 4 || l15 == palavraCerta[4]){
+            document.getElementById("L15").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L15").style.backgroundColor = "#D3AD69"
+        }
+
+        document.getElementById("L11").disabled = true
+        document.getElementById("L12").disabled = true
+        document.getElementById("L13").disabled = true
+        document.getElementById("L14").disabled = true
+        document.getElementById("L15").disabled = true
+
+        document.getElementById("L16").disabled = false
+        document.getElementById("L17").disabled = false
+        document.getElementById("L18").disabled = false
+        document.getElementById("L19").disabled = false
+        document.getElementById("L20").disabled = false
+
+        document.getElementById("L16").style.backgroundColor = "transparent"
+        document.getElementById("L17").style.backgroundColor = "transparent"
+        document.getElementById("L18").style.backgroundColor = "transparent"
+        document.getElementById("L19").style.backgroundColor = "transparent"
+        document.getElementById("L20").style.backgroundColor = "transparent"
+
+        document.getElementById("bttn3").style.display = "none"
+        document.getElementById("bttn4").style.display = "inline"
     }else{
-        document.getElementById("L11").style.backgroundColor = "#D3AD69"
+        alert("Preencha todos os campos")
     }
+    setTimeout(() => {if((posicaol11 == 0 || l11 == palavraCerta[0]) && (posicaol12 == 1 || l12 == palavraCerta[1]) && (posicaol13 == 2 || l13 == palavraCerta[2]) 
+        && (posicaol14 == 3 || l14 == palavraCerta[3]) && (posicaol15 == 4 || l15 == palavraCerta[4]) ){
+            document.getElementById("resultado").innerText = "Você acertou"
+            document.getElementById("resultado").style.backgroundColor = "green"
 
-    if(posicaol12 == -1){
-        document.getElementById("L12").style.backgroundColor = "red"
-    }else if(posicaol12 == 1 || l12 == palavraCerta[1]){
-        document.getElementById("L12").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L12").style.backgroundColor = "#D3AD69"
-    }
+            document.getElementById("L16").disabled = true
+            document.getElementById("L17").disabled = true
+            document.getElementById("L18").disabled = true
+            document.getElementById("L19").disabled = true
+            document.getElementById("L20").disabled = true
 
-    if(posicaol13 == -1){
-        document.getElementById("L13").style.backgroundColor = "red"
-    }else if(posicaol13 == 2 || l13 == palavraCerta[2]){
-        document.getElementById("L13").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L13").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol14 == -1){
-        document.getElementById("L14").style.backgroundColor = "red"
-    }else if(posicaol14 == 3 || l14 == palavraCerta[3]){
-        document.getElementById("L14").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L14").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol15 == -1){
-        document.getElementById("L15").style.backgroundColor = "red"
-    }else if(posicaol15 == 4 || l15 == palavraCerta[4]){
-        document.getElementById("L15").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L15").style.backgroundColor = "#D3AD69"
-    }
-
-    document.getElementById("L11").disabled = true
-    document.getElementById("L12").disabled = true
-    document.getElementById("L13").disabled = true
-    document.getElementById("L14").disabled = true
-    document.getElementById("L15").disabled = true
-
-    document.getElementById("L16").disabled = false
-    document.getElementById("L17").disabled = false
-    document.getElementById("L18").disabled = false
-    document.getElementById("L19").disabled = false
-    document.getElementById("L20").disabled = false
-
-    document.getElementById("bttn3").style.display = "none"
-    document.getElementById("bttn4").style.display = "inline"
+            document.getElementById("L16").style.backgroundColor = "#4C4347"
+            document.getElementById("L17").style.backgroundColor = "#4C4347"
+            document.getElementById("L18").style.backgroundColor = "#4C4347"
+            document.getElementById("L19").style.backgroundColor = "#4C4347"
+            document.getElementById("L20").style.backgroundColor = "#4C4347"
+        }}, 0)
 }
 
 
@@ -255,60 +337,88 @@ function localizar4(){
 
 
     //Condicionais para verificar se o posicionamento das letras está correto
-    if(posicaol16 == -1){
-        document.getElementById("L16").style.backgroundColor = "red"
-    }else if(posicaol16 == 0 || l16 == palavraCerta[0]){
-        document.getElementById("L16").style.backgroundColor = "green"
+    if(l16 != "" && l17 != "" && l18 != "" && l19 != "" && l20 != ""){
+        if(posicaol16 == -1){
+            document.getElementById("L16").style.backgroundColor = "red"
+        }else if(posicaol16 == 0 || l16 == palavraCerta[0]){
+            document.getElementById("L16").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L16").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol17 == -1){
+            document.getElementById("L17").style.backgroundColor = "red"
+        }else if(posicaol17 == 1 || l17 == palavraCerta[1]){
+            document.getElementById("L17").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L17").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol18 == -1){
+            document.getElementById("L18").style.backgroundColor = "red"
+        }else if(posicaol18 == 2 || l18 == palavraCerta[2]){
+            document.getElementById("L18").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L18").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol19 == -1){
+            document.getElementById("L19").style.backgroundColor = "red"
+        }else if(posicaol19 == 3 || l19 == palavraCerta[3]){
+            document.getElementById("L19").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L19").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol20 == -1){
+            document.getElementById("L20").style.backgroundColor = "red"
+        }else if(posicaol20 == 4 || l20 == palavraCerta[4]){
+            document.getElementById("L20").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L20").style.backgroundColor = "#D3AD69"
+        }
+
+        document.getElementById("L16").disabled = true
+        document.getElementById("L17").disabled = true
+        document.getElementById("L18").disabled = true
+        document.getElementById("L19").disabled = true
+        document.getElementById("L20").disabled = true
+
+        document.getElementById("L21").disabled = false
+        document.getElementById("L22").disabled = false
+        document.getElementById("L23").disabled = false
+        document.getElementById("L24").disabled = false
+        document.getElementById("L25").disabled = false
+
+        document.getElementById("L21").style.backgroundColor = "transparent"
+        document.getElementById("L22").style.backgroundColor = "transparent"
+        document.getElementById("L23").style.backgroundColor = "transparent"
+        document.getElementById("L24").style.backgroundColor = "transparent"
+        document.getElementById("L25").style.backgroundColor = "transparent"
+
+        document.getElementById("bttn4").style.display = "none"
+        document.getElementById("bttn5").style.display = "inline"
     }else{
-        document.getElementById("L16").style.backgroundColor = "#D3AD69"
+        alert("Preencha todos os campos")
     }
+    setTimeout(() => {if((posicaol16 == 0 || l16 == palavraCerta[0]) && (posicaol17 == 1 || l17 == palavraCerta[1]) && (posicaol18 == 2 || l18 == palavraCerta[2]) 
+        && (posicaol19 == 3 || l19 == palavraCerta[3]) && (posicaol20 == 4 || l20 == palavraCerta[4]) ){
+            document.getElementById("resultado").innerText = "Você acertou"
+            document.getElementById("resultado").style.backgroundColor = "green"
 
-    if(posicaol17 == -1){
-        document.getElementById("L17").style.backgroundColor = "red"
-    }else if(posicaol17 == 1 || l17 == palavraCerta[1]){
-        document.getElementById("L17").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L17").style.backgroundColor = "#D3AD69"
-    }
+            document.getElementById("L21").disabled = true
+            document.getElementById("L22").disabled = true
+            document.getElementById("L23").disabled = true
+            document.getElementById("L24").disabled = true
+            document.getElementById("L25").disabled = true
 
-    if(posicaol18 == -1){
-        document.getElementById("L18").style.backgroundColor = "red"
-    }else if(posicaol18 == 2 || l18 == palavraCerta[2]){
-        document.getElementById("L18").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L18").style.backgroundColor = "#D3AD69"
-    }
+            document.getElementById("L21").style.backgroundColor = "#4C4347"
+            document.getElementById("L22").style.backgroundColor = "#4C4347"
+            document.getElementById("L23").style.backgroundColor = "#4C4347"
+            document.getElementById("L24").style.backgroundColor = "#4C4347"
+            document.getElementById("L25").style.backgroundColor = "#4C4347"
 
-    if(posicaol19 == -1){
-        document.getElementById("L19").style.backgroundColor = "red"
-    }else if(posicaol19 == 3 || l19 == palavraCerta[3]){
-        document.getElementById("L19").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L19").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol20 == -1){
-        document.getElementById("L20").style.backgroundColor = "red"
-    }else if(posicaol20 == 4 || l20 == palavraCerta[4]){
-        document.getElementById("L20").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L20").style.backgroundColor = "#D3AD69"
-    }
-
-    document.getElementById("L16").disabled = true
-    document.getElementById("L17").disabled = true
-    document.getElementById("L18").disabled = true
-    document.getElementById("L19").disabled = true
-    document.getElementById("L20").disabled = true
-
-    document.getElementById("L21").disabled = false
-    document.getElementById("L22").disabled = false
-    document.getElementById("L23").disabled = false
-    document.getElementById("L24").disabled = false
-    document.getElementById("L25").disabled = false
-
-    document.getElementById("bttn4").style.display = "none"
-    document.getElementById("bttn5").style.display = "inline"
+        }}, 0)
 }
 
 
@@ -331,60 +441,88 @@ function localizar5(){
 
 
     //Condicionais para verificar se o posicionamento das letras está correto
-    if(posicaol21 == -1){
-        document.getElementById("L21").style.backgroundColor = "red"
-    }else if(posicaol21 == 0 || l21 == palavraCerta[0]){
-        document.getElementById("L21").style.backgroundColor = "green"
+    if(l21 != "" && l22 != "" && l23 != "" && l24 != "" && l25 != ""){
+        if(posicaol21 == -1){
+            document.getElementById("L21").style.backgroundColor = "red"
+        }else if(posicaol21 == 0 || l21 == palavraCerta[0]){
+            document.getElementById("L21").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L21").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol22 == -1){
+            document.getElementById("L22").style.backgroundColor = "red"
+        }else if(posicaol22 == 1 || l22 == palavraCerta[1]){
+            document.getElementById("L22").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L22").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol23 == -1){
+            document.getElementById("L23").style.backgroundColor = "red"
+        }else if(posicaol23 == 2 || l23 == palavraCerta[2]){
+            document.getElementById("L23").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L23").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol24 == -1){
+            document.getElementById("L24").style.backgroundColor = "red"
+        }else if(posicaol24 == 3 || l24 == palavraCerta[3]){
+            document.getElementById("L24").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L24").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol25 == -1){
+            document.getElementById("L25").style.backgroundColor = "red"
+        }else if(posicaol25 == 4 || l25 == palavraCerta[4]){
+            document.getElementById("L25").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L25").style.backgroundColor = "#D3AD69"
+        }
+
+        document.getElementById("L21").disabled = true
+        document.getElementById("L22").disabled = true
+        document.getElementById("L23").disabled = true
+        document.getElementById("L24").disabled = true
+        document.getElementById("L25").disabled = true
+
+        document.getElementById("L26").disabled = false
+        document.getElementById("L27").disabled = false
+        document.getElementById("L28").disabled = false
+        document.getElementById("L29").disabled = false
+        document.getElementById("L30").disabled = false
+
+        document.getElementById("L26").style.backgroundColor = "transparent"
+        document.getElementById("L27").style.backgroundColor = "transparent"
+        document.getElementById("L28").style.backgroundColor = "transparent"
+        document.getElementById("L29").style.backgroundColor = "transparent"
+        document.getElementById("L30").style.backgroundColor = "transparent"
+
+        document.getElementById("bttn5").style.display = "none"
+        document.getElementById("bttn6").style.display = "inline"
     }else{
-        document.getElementById("L21").style.backgroundColor = "#D3AD69"
+        alert("Preencha todos os campos")
     }
+    setTimeout(() => {if((posicaol21 == 0 || l21 == palavraCerta[0]) && (posicaol22 == 1 || l22 == palavraCerta[1]) && (posicaol23 == 2 || l23 == palavraCerta[2]) 
+        && (posicaol24 == 3 || l24 == palavraCerta[3]) && (posicaol25 == 4 || l25 == palavraCerta[4]) ){
+            document.getElementById("resultado").innerText = "Você acertou"
+            document.getElementById("resultado").style.backgroundColor = "green"
 
-    if(posicaol22 == -1){
-        document.getElementById("L22").style.backgroundColor = "red"
-    }else if(posicaol22 == 1 || l22 == palavraCerta[1]){
-        document.getElementById("L22").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L22").style.backgroundColor = "#D3AD69"
-    }
+            document.getElementById("L26").disabled = true
+            document.getElementById("L27").disabled = true
+            document.getElementById("L28").disabled = true
+            document.getElementById("L29").disabled = true
+            document.getElementById("L30").disabled = true
 
-    if(posicaol23 == -1){
-        document.getElementById("L23").style.backgroundColor = "red"
-    }else if(posicaol23 == 2 || l23 == palavraCerta[2]){
-        document.getElementById("L23").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L23").style.backgroundColor = "#D3AD69"
-    }
+            document.getElementById("L26").style.backgroundColor = "#4C4347"
+            document.getElementById("L27").style.backgroundColor = "#4C4347"
+            document.getElementById("L28").style.backgroundColor = "#4C4347"
+            document.getElementById("L29").style.backgroundColor = "#4C4347"
+            document.getElementById("L30").style.backgroundColor = "#4C4347"
 
-    if(posicaol24 == -1){
-        document.getElementById("L24").style.backgroundColor = "red"
-    }else if(posicaol24 == 3 || l24 == palavraCerta[3]){
-        document.getElementById("L24").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L24").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol25 == -1){
-        document.getElementById("L25").style.backgroundColor = "red"
-    }else if(posicaol25 == 4 || l25 == palavraCerta[4]){
-        document.getElementById("L25").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L25").style.backgroundColor = "#D3AD69"
-    }
-
-    document.getElementById("L21").disabled = true
-    document.getElementById("L22").disabled = true
-    document.getElementById("L23").disabled = true
-    document.getElementById("L24").disabled = true
-    document.getElementById("L25").disabled = true
-
-    document.getElementById("L26").disabled = false
-    document.getElementById("L27").disabled = false
-    document.getElementById("L28").disabled = false
-    document.getElementById("L29").disabled = false
-    document.getElementById("L30").disabled = false
-
-    document.getElementById("bttn5").style.display = "none"
-    document.getElementById("bttn6").style.display = "inline"
+        }}, 0)
 }
 
 
@@ -408,52 +546,61 @@ function localizar6(){
 
 
     //Condicionais para verificar se o posicionamento das letras está correto
-    if(posicaol26 == -1){
-        document.getElementById("L26").style.backgroundColor = "red"
-    }else if(posicaol26 == 0 || l26 == palavraCerta[0]){
-        document.getElementById("L26").style.backgroundColor = "green"
+    if(l26 != "" && l27 != "" && l28 != "" && l29 != "" && l30 != ""){
+        if(posicaol26 == -1){
+            document.getElementById("L26").style.backgroundColor = "red"
+        }else if(posicaol26 == 0 || l26 == palavraCerta[0]){
+            document.getElementById("L26").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L26").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol27 == -1){
+            document.getElementById("L27").style.backgroundColor = "red"
+        }else if(posicaol27 == 1 || l27 == palavraCerta[1]){
+            document.getElementById("L27").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L27").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol28 == -1){
+            document.getElementById("L28").style.backgroundColor = "red"
+        }else if(posicaol28 == 2 || l28 == palavraCerta[2]){
+            document.getElementById("L28").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L28").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol29 == -1){
+            document.getElementById("L29").style.backgroundColor = "red"
+        }else if(posicaol29 == 3 || l29 == palavraCerta[3]){
+            document.getElementById("L29").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L29").style.backgroundColor = "#D3AD69"
+        }
+
+        if(posicaol30 == -1){
+            document.getElementById("L30").style.backgroundColor = "red"
+        }else if(posicaol30 == 4 || l30 == palavraCerta[4]){
+            document.getElementById("L30").style.backgroundColor = "green"
+        }else{
+            document.getElementById("L30").style.backgroundColor = "#D3AD69"
+        }
+
+        document.getElementById("L26").disabled = true
+        document.getElementById("L27").disabled = true
+        document.getElementById("L28").disabled = true
+        document.getElementById("L29").disabled = true
+        document.getElementById("L30").disabled = true
+
+        document.getElementById("bttn5").style.display = "none"
+        document.getElementById("bttn6").style.display = "inline"
     }else{
-        document.getElementById("L26").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol27 == -1){
-        document.getElementById("L27").style.backgroundColor = "red"
-    }else if(posicaol27 == 1 || l27 == palavraCerta[1]){
-        document.getElementById("L27").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L27").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol28 == -1){
-        document.getElementById("L28").style.backgroundColor = "red"
-    }else if(posicaol28 == 2 || l28 == palavraCerta[2]){
-        document.getElementById("L28").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L28").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol29 == -1){
-        document.getElementById("L29").style.backgroundColor = "red"
-    }else if(posicaol29 == 3 || l29 == palavraCerta[3]){
-        document.getElementById("L29").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L29").style.backgroundColor = "#D3AD69"
-    }
-
-    if(posicaol30 == -1){
-        document.getElementById("L30").style.backgroundColor = "red"
-    }else if(posicaol30 == 4 || l30 == palavraCerta[4]){
-        document.getElementById("L30").style.backgroundColor = "green"
-    }else{
-        document.getElementById("L30").style.backgroundColor = "#D3AD69"
-    }
-
-    document.getElementById("L26").disabled = true
-    document.getElementById("L27").disabled = true
-    document.getElementById("L28").disabled = true
-    document.getElementById("L29").disabled = true
-    document.getElementById("L30").disabled = true
-
-    document.getElementById("bttn5").style.display = "none"
-    document.getElementById("bttn6").style.display = "inline"
+        alert("Preencha todos os campos")
+    }    
+    setTimeout(() => {if((posicaol26 == 0 || l26 == palavraCerta[0]) && (posicaol27 == 1 || l27 == palavraCerta[1]) && (posicaol28 == 2 || l28 == palavraCerta[2]) 
+        && (posicaol29 == 3 || l29 == palavraCerta[3]) && (posicaol30 == 4 || l30 == palavraCerta[4]) ){
+            document.getElementById("resultado").innerText = "Você acertou"
+            document.getElementById("resultado").style.backgroundColor = "green"
+        }}, 0)
 }
