@@ -20,12 +20,6 @@ document.addEventListener("keypress", function(e){
     }
 })
 
-//Backspace voltar quando pressionado
-function trocarPosicaoBackspace(field, autoMove){
-    if(field.value.length >= field.maxLength){
-        document.getElementById(autoMove).focus()
-    }
-    }
 
 var x = [1, 2, 3, 4, 5]
 
