@@ -4,7 +4,6 @@ var palavras= ['sagaz','negro','âmago','êxito','mexer','termo','senso','nobre'
 //Randomizar a palavra
 let palavra =  palavras[Math.floor(Math.random() * palavras.length)];
 let palavraCerta= palavra.split('');
-console.log(palavraCerta)
 
 //Função para trocar para o próximo input quando alguma letra for digitada
 function trocarPosicao(field, autoMove){
