@@ -1,8 +1,10 @@
 //Palavra certa
 var palavras= ['sagaz','negro','âmago','êxito','mexer','termo','senso','nobre','algoz','afeto','plena','ética','mútua','sutil','tênue','vigor','aquém','audaz','porém','fazer','sanar','seção','inato','assim','cerne','ideia','desde','fosse','poder','moral','torpe','honra','muito','justo','gozar','anexo','fútil','razão','quiçá','etnia','ícone','sobre','tange','égide','lapso','mútuo','sonho','expor','haver','hábil','casal','amigo','tempo','pesar','posse','ávido','então','boçal','ardil','coser','genro','corja','seara','dengo','prole','detém','causa','dizer','tenaz','digno','porra','dever','crivo','saber','óbice','ápice','ânsia','brado','ceder','ânimo','gleba','pária','graça','assaz','comum','atroz','orgia','culto','temor','sendo','mundo','censo','pauta','fugaz','denso','cozer','valha','neném','ainda','vício','forte','revés','vulgo','estar','pudor','regra','dogma','louco','banal','criar','pífio','impor','tenro','desse','apraz','jeito','reaça','ordem','round','atrás','pedir','saúde','clava','viril','mercê','usura','manso','juízo','sábio','ontem','servo','prosa','feliz','presa','coisa','afago','fluir','falar','ébrio','cunho','forma','devir','meiga','vendo','sério','homem','platô','guisa','pleno','visar','temer','mesmo','xibiu','cisma','bruma','limbo','mágoa','puder','acaso','herói','êxodo','gerar','óbvio','afins','obter','valor','lugar','ímpio','matiz','praxe','crise','senil','havia','vênia','certo','fluxo','enfim','álibi','tédio','ritmo','posso','garbo','tomar','reter','pulha','parvo','união','valia','grato','vital','todos','visão','favor','vivaz','abrir','laico','bravo','parco','prumo','fácil','ameno','gênio','reles','óbito','falso','possa','olhar','prime','tesão','levar','tecer','burro','anelo','selar','casta','fator','citar','rogar','adiar','farsa','façam','ranço','achar','coeso','noção','cisão','épico','legal','cabal','morte','imune','sábia','sinto','nicho','fardo','falta','exato','ativo','gente','lavra','haste','amplo','força','ouvir','viver','brega','gesto','labor','dúbio','revel','sonso','cesta','sesta','deter','sulco','passo','leigo','tendo','único','árduo','vemos','atuar','feixe','ótica','rever','calma','vadia','ciúme','igual','toada','humor','débil','tende','sonsa','ideal','hiato','vácuo','pobre','ponto','ambos','claro','terno','velho','remir','fusão','probo','varão','outro','cauda','leito','senão','advém','doido','horda','carma','linda','marco','jovem','inata','xeque','capaz','fonte','relva','ajuda','tenra','algum','caçar','anuir','velar','ficar','noite','apoio','dorso','vimos','rigor','farão','série','verso','botar','vazio','tanto','líder','prece','cruel','morar','terra','ambas','moção','vírus','frase','peste','massa','entre','casto','coçar','pouco','covil','coesa','fauna','faina','sente','signo','preso','furor','credo','dócil','feito','lazer','minha','vetor','árido','flora','raiva','aceso','ciclo','ímpar','maior','chata','torço','beata','vulto','brisa','birra','corno','houve','trama','breve','papel','vasto','liame','setor','adeus','pegar','manha','salvo','senda','ardor','seita','banzo','morro','pecha','átomo','prado','visse','reger','antro','blasé','avaro','segue','livro','nossa','anciã','ocaso','comer','plano','peixe','prono','rezar','áureo','saiba','saída','ótimo','aliás','meses','acima','sorte','chulo','junto','nunca','fitar','chuva','opção','jazia','serão','fruir','mudar','parar','pajem','sinal','puxar','bando','treta','foder','fugir','motim','gerir','prazo','nação','séria','carro','alude','tosco','leite','sinhá','norma','andar','época','grupo','brava','tenso','exame','arcar','rapaz','avião','ídolo','venal','lenda','soldo','tirar','parte','virão','reino','quota','campo','praga','malta','exijo','sumir','pompa','aonde','logro','traga','vilão','fixar','preto','anais','voraz','corpo','antes','quase','solto','cheio','turva','nódoa','agora','certa','cópia','oásis','turba','alado','risco','apego','parva','filho','messe','índio','grave','doído','caixa','praia','estão','acesa','prova','verve','perda','apelo','nível','pardo','fenda','texto','trupe','ligar','psico','retém','tocar','átrio','viria','lindo','dessa','sabia','alçar','ficha','navio','opaco','coito','livre','áurea','astro','supra','fraco','ético','afora','verba','faixa','cioso','elite','glosa','parca','conta','autor','lidar','mente','grata','firme','tinha','verbo','calda','bater','privê','fatal','fatos','cousa','oxalá','reses','magia','junco','jirau','molho','irmão','turvo','macio','douto','torso','deixa','pagão','salve','abriu','supor','pique','ígneo','atual','asilo','bicho','light','rouca','órfão','posto','festa','caber','extra','curso','besta','locus','ruína','sexta','judeu','manhã','paira','zelar','pisar','vezes','ereto','finda','desta','sarça','abuso','vídeo','rádio','bioma','combo','feudo','agudo','tetra','facto','culpa','vinha','porta','menos','baixo','urgia','vosso','longe','cútis','surja','advir','meigo','estio','traço','bônus','autos','tento','super','sítio','cânon','cocho','drops','facho','museu','pilar','rumor','suave','clean','gosto','lasso','geral','amena','acolá','optar','medir','penta','calão','turma','boato','pífia','ações','chama','mosto','rubro','crime','letal','louça','pacto','pódio','ponha','lápis','cover','local','folga','nosso','cacho','hobby','hoste','aroma','vigia','vetar','finjo','refém','drama','fazia','pasmo','açude','brabo','axila','feroz','rival','troça','móvel','mesma','monte','poema','golpe','ecoar','lesse','metiê','riste','peito','ávida','plebe','súcia','fórum','daqui','lição','páreo','coral','teste','forem','monge','aluno','clima','viram','carta','ébano','escol','macro','poeta','venha','falha','légua','sarau','farta','chato','briga','cargo','átimo','cetro','ateia','passa','perco','tacha','fruto','plaga','conto','calmo','idoso','plumo','swing','busca','virar','piada','vento','roupa','tarde','assar','estro','chefe','arado','tribo','aviso','verde','surto','recém','grama','catre','seixo','broxa','traje','ímpia','civil','ornar','bruta','deste','deram','saldo','arfar','fosso','vedar','trato','depor','troca','beijo','nuvem','tição','irado','porte','pasma','grota','canso','pedra','âmbar','úteis','silvo','cifra','corso','bazar','régio','gabar','segar','júlia','vazão','gíria','casar','amado','pavor','tutor','laudo','sósia','bucho','tiver','bruto','bença','troco','magna','perto','rural','vagar','molde','lesto','mídia','tchau','itens','única','minar','nesse','renda','odiar','artur','manga','vadio','viado','meche','fossa','sótão','clero','jejum','inter','mangá','berro','feita','aviar','paiol','ileso','negar','largo','pomar','cinto','cenho','órgão','lesão','pugna','horto','canto','areia','visto','rocha','amiga','ruído','podar','pinho','invés','urdir','proto','cível','bolsa','marca','ufano','vista','frota','mocho','vasta','densa','dúbia','bulir','penso','piche','úmido','peita','guria','canil','jogar','culta','morfo','xucro','esgar','resto','mamãe','cheia','fazes','close','linha','apear','úbere','chula','demão','misto','varoa','narco','findo','monta','natal','bunda','manto','campa','stand','barão','amada','gemer','fundo','ágape','chaga','símio','mover','jazer','retro','venho','álbum','tenha','nessa','preço','ardis','punha','folia','sigla','cerca','seiva','sabor','calça','álamo','cosmo','lábia','firma','matar','porca','rente','banto','louro','pólis','salva','ferpa','tumba','ceita','míope','coevo','barro','arroz','torna','verão','sinta','velha','redor','axial','enjoo','solta','volta','ousar','bolso','etapa','santo','áudio','zumbi','trago','lousa','fugiu','corar','letra','limpo','obtém','nesta','lutar','final','queda','cacto','mimar','baixa','troço','farol','reler','fátuo','penca','veloz','vário','quite','nácar','longo','vazia','neste','burra','coroa','mania','folha','farto','sugar','forro','staff','puído','refil','bedel','macho','justa','repor','dança','ultra','viger','lucro','subir','logos','passe','urgir','custo','sadio','hífen','chave','gueto','sexto','mimos','valer','mouro','harém','usual','sócio','lento','cardo','versa','desça','salmo','calor','lábil','calvo','rédea','anzol','árdua',]
 
+//Randomizar a palavra
 let palavra =  palavras[Math.floor(Math.random() * palavras.length)];
 let palavraCerta= palavra.split('');
+console.log(palavraCerta)
 
 //Função para trocar para o próximo input quando alguma letra for digitada
 function trocarPosicao(field, autoMove){
@@ -11,14 +13,33 @@ if(field.value.length >= field.maxLength){
 }
 }
 
+//Função para ativar a função localizar com Enter
+document.addEventListener("keypress", function(e){
+    if(e.key === "Enter"){
+        const btn = document.getElementById("bttn")
+        btn.click()
+    }
+})
+
+//Backspace voltar quando pressionado
+function trocarPosicaoBackspace(field, autoMove){
+    if(field.value.length >= field.maxLength){
+        document.getElementById(autoMove).focus()
+    }
+    }
+
+var x = [1, 2, 3, 4, 5]
+
 //Função para localizar as letras correspondentes da primeira linha
 function localizar(){
+    
+
     //Variáveis de valor dos inputs
-    let l1 = document.getElementById("L1").value
-    let l2 = document.getElementById("L2").value
-    let l3 = document.getElementById("L3").value
-    let l4 = document.getElementById("L4").value
-    let l5 = document.getElementById("L5").value
+    let l1 = document.getElementById(`L${x[0]}`).value
+    let l2 = document.getElementById(`L${x[1]}`).value
+    let l3 = document.getElementById(`L${x[2]}`).value
+    let l4 = document.getElementById(`L${x[3]}`).value
+    let l5 = document.getElementById(`L${x[4]}`).value
 
     //Variáveis da posição das letras
     var posicaol1 = palavraCerta.indexOf(l1)
@@ -31,579 +52,87 @@ function localizar(){
     //Condicionais para verificar se o posicionamento das letras está correto
     if(l1 != "" && l2 != "" && l3 != "" && l4 != "" && l5 != ""){
         if(posicaol1 == -1){
-            document.getElementById("L1").style.backgroundColor = "red"
+            document.getElementById(`L${x[0]}`).style.backgroundColor = "red"
         }else if(posicaol1 == 0 || l1 == palavraCerta[0]){
-            document.getElementById("L1").style.backgroundColor = "green"
+            document.getElementById(`L${x[0]}`).style.backgroundColor = "green"
         }else{
-            document.getElementById("L1").style.backgroundColor = "#D3AD69"
+            document.getElementById(`L${x[0]}`).style.backgroundColor = "#D3AD69"
         }
 
         if(posicaol2 == -1){
-            document.getElementById("L2").style.backgroundColor = "red"
+            document.getElementById(`L${x[1]}`).style.backgroundColor = "red"
         }else if(posicaol2 == 1 || l2 == palavraCerta[1]){
-            document.getElementById("L2").style.backgroundColor = "green"
+            document.getElementById(`L${x[1]}`).style.backgroundColor = "green"
         }else{
-            document.getElementById("L2").style.backgroundColor = "#D3AD69"
+            document.getElementById(`L${x[1]}`).style.backgroundColor = "#D3AD69"
         }
 
         if(posicaol3 == -1){
-            document.getElementById("L3").style.backgroundColor = "red"
+            document.getElementById(`L${x[2]}`).style.backgroundColor = "red"
         }else if(posicaol3 == 2 || l3 == palavraCerta[2]){
-            document.getElementById("L3").style.backgroundColor = "green"
+            document.getElementById(`L${x[2]}`).style.backgroundColor = "green"
         }else{
-            document.getElementById("L3").style.backgroundColor = "#D3AD69"
+            document.getElementById(`L${x[2]}`).style.backgroundColor = "#D3AD69"
         }
 
         if(posicaol4 == -1){
-            document.getElementById("L4").style.backgroundColor = "red"
+            document.getElementById(`L${x[3]}`).style.backgroundColor = "red"
         }else if(posicaol4 == 3 || l4 == palavraCerta[3]){
-            document.getElementById("L4").style.backgroundColor = "green"
+            document.getElementById(`L${x[3]}`).style.backgroundColor = "green"
         }else{
-            document.getElementById("L4").style.backgroundColor = "#D3AD69"
+            document.getElementById(`L${x[3]}`).style.backgroundColor = "#D3AD69"
         }
 
         if(posicaol5 == -1){
-            document.getElementById("L5").style.backgroundColor = "red"
+            document.getElementById(`L${x[4]}`).style.backgroundColor = "red"
         }else if(posicaol5 == 4 || l5 == palavraCerta[4]){
-            document.getElementById("L5").style.backgroundColor = "green"
+            document.getElementById(`L${x[4]}`).style.backgroundColor = "green"
         }else{
-            document.getElementById("L5").style.backgroundColor = "#D3AD69"
+            document.getElementById(`L${x[4]}`).style.backgroundColor = "#D3AD69"
         }
 
-        document.getElementById("L1").disabled = true
-        document.getElementById("L2").disabled = true
-        document.getElementById("L3").disabled = true
-        document.getElementById("L4").disabled = true
-        document.getElementById("L5").disabled = true
+        setTimeout(() => {if((posicaol1 == 0 || l1 == palavraCerta[0]) && (posicaol2 == 1 || l2 == palavraCerta[1]) && (posicaol3 == 2 || l3 == palavraCerta[2]) 
+            && (posicaol4 == 3 || l4 == palavraCerta[3]) && (posicaol5 == 4 || l5 == palavraCerta[4]) ){
+                document.getElementById("resultado").innerText = "Você acertou"
+                document.getElementById("resultado").style.backgroundColor = "green"
     
-        document.getElementById("L6").disabled = false
-        document.getElementById("L7").disabled = false
-        document.getElementById("L8").disabled = false
-        document.getElementById("L9").disabled = false
-        document.getElementById("L10").disabled = false
-    
-        document.getElementById("L6").style.backgroundColor = "transparent"
-        document.getElementById("L7").style.backgroundColor = "transparent"
-        document.getElementById("L8").style.backgroundColor = "transparent"
-        document.getElementById("L9").style.backgroundColor = "transparent"
-        document.getElementById("L10").style.backgroundColor = "transparent"
-    
-        document.getElementById("bttn").style.display = "none"
-        document.getElementById("bttn2").style.display = "inline"
+                document.getElementById(`L${x[0]}`).disabled = true
+                document.getElementById(`L${x[1]}`).disabled = true
+                document.getElementById(`L${x[2]}`).disabled = true
+                document.getElementById(`L${x[3]}`).disabled = true
+                document.getElementById(`L${x[4]}`).disabled = true
+            }else{
+                setTimeout(()=>{
+                    x[0] = x[0] + 5
+                    x[1] = x[1] + 5
+                    x[2] = x[2] + 5
+                    x[3] = x[3] + 5
+                    x[4] = x[4] + 5
+            
+                    console.log(x)
+            
+                    document.getElementById("L1").disabled = true
+                    document.getElementById("L2").disabled = true
+                    document.getElementById("L3").disabled = true
+                    document.getElementById("L4").disabled = true
+                    document.getElementById("L5").disabled = true
+                
+                    document.getElementById(`L${x[0]}`).disabled = false
+                    document.getElementById(`L${x[1]}`).disabled = false
+                    document.getElementById(`L${x[2]}`).disabled = false
+                    document.getElementById(`L${x[3]}`).disabled = false
+                    document.getElementById(`L${x[4]}`).disabled = false
+                
+                    document.getElementById(`L${x[0]}`).style.backgroundColor = "transparent"
+                    document.getElementById(`L${x[1]}`).style.backgroundColor = "transparent"
+                    document.getElementById(`L${x[2]}`).style.backgroundColor = "transparent"
+                    document.getElementById(`L${x[3]}`).style.backgroundColor = "transparent"
+                    document.getElementById(`L${x[4]}`).style.backgroundColor = "transparent"
+            
+                }, 500)
+            }}, 0)
 
     }else{
         alert("Preencha todos os campos")
     }
-    setTimeout(() => {if((posicaol1 == 0 || l1 == palavraCerta[0]) && (posicaol2 == 1 || l2 == palavraCerta[1]) && (posicaol3 == 2 || l3 == palavraCerta[2]) 
-        && (posicaol4 == 3 || l4 == palavraCerta[3]) && (posicaol5 == 4 || l5 == palavraCerta[4]) ){
-            document.getElementById("resultado").innerText = "Você acertou"
-            document.getElementById("resultado").style.backgroundColor = "green"
-
-            document.getElementById("L6").disabled = true
-            document.getElementById("L7").disabled = true
-            document.getElementById("L8").disabled = true
-            document.getElementById("L9").disabled = true
-            document.getElementById("L10").disabled = true
-
-            document.getElementById("L6").style.backgroundColor = "#4C4347"
-            document.getElementById("L7").style.backgroundColor = "#4C4347"
-            document.getElementById("L8").style.backgroundColor = "#4C4347"
-            document.getElementById("L9").style.backgroundColor = "#4C4347"
-            document.getElementById("L10").style.backgroundColor = "#4C4347"
-        }}, 0)
-}
-
-
-
-//Função para localizar as letras correspondentes da segunda linha
-function localizar2(){
-    //Variáveis de valor dos inputs
-    let l6 = document.getElementById("L6").value
-    let l7 = document.getElementById("L7").value
-    let l8 = document.getElementById("L8").value
-    let l9 = document.getElementById("L9").value
-    let l10 = document.getElementById("L10").value
-
-    //Variáveis da posição das letras
-    var posicaol6 = palavraCerta.indexOf(l6)
-    var posicaol7 = palavraCerta.indexOf(l7)
-    var posicaol8 = palavraCerta.indexOf(l8)
-    var posicaol9 = palavraCerta.indexOf(l9)
-    var posicaol10 = palavraCerta.indexOf(l10)
-
-
-    //Condicionais para verificar se o posicionamento das letras está correto
-    if(l6 != "" && l7 != "" && l8 != "" && l9 != "" && l10 != ""){
-        if(posicaol6 == -1){
-            document.getElementById("L6").style.backgroundColor = "red"
-        }else if(posicaol6 == 0 || l6 == palavraCerta[0]){
-            document.getElementById("L6").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L6").style.backgroundColor = "#D3AD69"
-        }
-    
-        if(posicaol7 == -1){
-            document.getElementById("L7").style.backgroundColor = "red"
-        }else if(posicaol7 == 1 || l7 == palavraCerta[1]){
-            document.getElementById("L7").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L7").style.backgroundColor = "#D3AD69"
-        }
-    
-        if(posicaol8 == -1){
-            document.getElementById("L8").style.backgroundColor = "red"
-        }else if(posicaol8 == 2 || l8 == palavraCerta[2]){
-            document.getElementById("L8").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L8").style.backgroundColor = "#D3AD69"
-        }
-    
-        if(posicaol9 == -1){
-            document.getElementById("L9").style.backgroundColor = "red"
-        }else if(posicaol9 == 3 || l9 == palavraCerta[3]){
-            document.getElementById("L9").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L9").style.backgroundColor = "#D3AD69"
-        }
-    
-        if(posicaol10 == -1){
-            document.getElementById("L10").style.backgroundColor = "red"
-        }else if(posicaol10 == 4 || l10 == palavraCerta[4]){
-            document.getElementById("L10").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L10").style.backgroundColor = "#D3AD69"
-        }
-    
-        document.getElementById("L6").disabled = true
-        document.getElementById("L7").disabled = true
-        document.getElementById("L8").disabled = true
-        document.getElementById("L9").disabled = true
-        document.getElementById("L10").disabled = true
-    
-        document.getElementById("L11").disabled = false
-        document.getElementById("L12").disabled = false
-        document.getElementById("L13").disabled = false
-        document.getElementById("L14").disabled = false
-        document.getElementById("L15").disabled = false
-    
-        document.getElementById("L11").style.backgroundColor = "transparent"
-        document.getElementById("L12").style.backgroundColor = "transparent"
-        document.getElementById("L13").style.backgroundColor = "transparent"
-        document.getElementById("L14").style.backgroundColor = "transparent"
-        document.getElementById("L15").style.backgroundColor = "transparent"
-    
-        document.getElementById("bttn2").style.display = "none"
-        document.getElementById("bttn3").style.display = "inline"
-    }else{
-        alert("Preencha todos os campos")
-    }
-    setTimeout(() => {if((posicaol6 == 0 || l6 == palavraCerta[0]) && (posicaol7 == 1 || l7 == palavraCerta[1]) && (posicaol8 == 2 || l8 == palavraCerta[2]) 
-        && (posicaol9 == 3 || l9 == palavraCerta[3]) && (posicaol10 == 4 || l10 == palavraCerta[4]) ){
-            document.getElementById("resultado").innerText = "Você acertou"
-            document.getElementById("resultado").style.backgroundColor = "green"
-
-            document.getElementById("L11").disabled = true
-            document.getElementById("L12").disabled = true
-            document.getElementById("L13").disabled = true
-            document.getElementById("L14").disabled = true
-            document.getElementById("L15").disabled = true
-
-            document.getElementById("L11").style.backgroundColor = "#4C4347"
-            document.getElementById("L12").style.backgroundColor = "#4C4347"
-            document.getElementById("L13").style.backgroundColor = "#4C4347"
-            document.getElementById("L14").style.backgroundColor = "#4C4347"
-            document.getElementById("L15").style.backgroundColor = "#4C4347"
-        }}, 0)
-}
-
-
-//Função para localizar as letras correspondentes da terceira linha
-function localizar3(){
-
-    //Variáveis de valor dos inputs
-    let l11 = document.getElementById("L11").value
-    let l12 = document.getElementById("L12").value
-    let l13 = document.getElementById("L13").value
-    let l14 = document.getElementById("L14").value
-    let l15 = document.getElementById("L15").value
-
-    //Variáveis da posição das letras
-    var posicaol11 = palavraCerta.indexOf(l11)
-    var posicaol12 = palavraCerta.indexOf(l12)
-    var posicaol13 = palavraCerta.indexOf(l13)
-    var posicaol14 = palavraCerta.indexOf(l14)
-    var posicaol15 = palavraCerta.indexOf(l15)
-
-
-    //Condicionais para verificar se o posicionamento das letras está correto
-    if(l11 != "" && l12 != "" && l13 != "" && l14 != "" && l15 != ""){
-        if(posicaol11 == -1){
-            document.getElementById("L11").style.backgroundColor = "red"
-        }else if(posicaol11 == 0 || l11 == palavraCerta[0]){
-            document.getElementById("L11").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L11").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol12 == -1){
-            document.getElementById("L12").style.backgroundColor = "red"
-        }else if(posicaol12 == 1 || l12 == palavraCerta[1]){
-            document.getElementById("L12").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L12").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol13 == -1){
-            document.getElementById("L13").style.backgroundColor = "red"
-        }else if(posicaol13 == 2 || l13 == palavraCerta[2]){
-            document.getElementById("L13").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L13").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol14 == -1){
-            document.getElementById("L14").style.backgroundColor = "red"
-        }else if(posicaol14 == 3 || l14 == palavraCerta[3]){
-            document.getElementById("L14").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L14").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol15 == -1){
-            document.getElementById("L15").style.backgroundColor = "red"
-        }else if(posicaol15 == 4 || l15 == palavraCerta[4]){
-            document.getElementById("L15").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L15").style.backgroundColor = "#D3AD69"
-        }
-
-        document.getElementById("L11").disabled = true
-        document.getElementById("L12").disabled = true
-        document.getElementById("L13").disabled = true
-        document.getElementById("L14").disabled = true
-        document.getElementById("L15").disabled = true
-
-        document.getElementById("L16").disabled = false
-        document.getElementById("L17").disabled = false
-        document.getElementById("L18").disabled = false
-        document.getElementById("L19").disabled = false
-        document.getElementById("L20").disabled = false
-
-        document.getElementById("L16").style.backgroundColor = "transparent"
-        document.getElementById("L17").style.backgroundColor = "transparent"
-        document.getElementById("L18").style.backgroundColor = "transparent"
-        document.getElementById("L19").style.backgroundColor = "transparent"
-        document.getElementById("L20").style.backgroundColor = "transparent"
-
-        document.getElementById("bttn3").style.display = "none"
-        document.getElementById("bttn4").style.display = "inline"
-    }else{
-        alert("Preencha todos os campos")
-    }
-    setTimeout(() => {if((posicaol11 == 0 || l11 == palavraCerta[0]) && (posicaol12 == 1 || l12 == palavraCerta[1]) && (posicaol13 == 2 || l13 == palavraCerta[2]) 
-        && (posicaol14 == 3 || l14 == palavraCerta[3]) && (posicaol15 == 4 || l15 == palavraCerta[4]) ){
-            document.getElementById("resultado").innerText = "Você acertou"
-            document.getElementById("resultado").style.backgroundColor = "green"
-
-            document.getElementById("L16").disabled = true
-            document.getElementById("L17").disabled = true
-            document.getElementById("L18").disabled = true
-            document.getElementById("L19").disabled = true
-            document.getElementById("L20").disabled = true
-
-            document.getElementById("L16").style.backgroundColor = "#4C4347"
-            document.getElementById("L17").style.backgroundColor = "#4C4347"
-            document.getElementById("L18").style.backgroundColor = "#4C4347"
-            document.getElementById("L19").style.backgroundColor = "#4C4347"
-            document.getElementById("L20").style.backgroundColor = "#4C4347"
-        }}, 0)
-}
-
-
-
-//Função para localizar as letras correspondentes da quarta linha
-function localizar4(){
-
-    //Variáveis de valor dos inputs
-    let l16 = document.getElementById("L16").value
-    let l17 = document.getElementById("L17").value
-    let l18 = document.getElementById("L18").value
-    let l19 = document.getElementById("L19").value
-    let l20 = document.getElementById("L20").value
-
-    //Variáveis da posição das letras
-    var posicaol16 = palavraCerta.indexOf(l16)
-    var posicaol17 = palavraCerta.indexOf(l17)
-    var posicaol18 = palavraCerta.indexOf(l18)
-    var posicaol19 = palavraCerta.indexOf(l19)
-    var posicaol20 = palavraCerta.indexOf(l20)
-
-
-    //Condicionais para verificar se o posicionamento das letras está correto
-    if(l16 != "" && l17 != "" && l18 != "" && l19 != "" && l20 != ""){
-        if(posicaol16 == -1){
-            document.getElementById("L16").style.backgroundColor = "red"
-        }else if(posicaol16 == 0 || l16 == palavraCerta[0]){
-            document.getElementById("L16").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L16").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol17 == -1){
-            document.getElementById("L17").style.backgroundColor = "red"
-        }else if(posicaol17 == 1 || l17 == palavraCerta[1]){
-            document.getElementById("L17").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L17").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol18 == -1){
-            document.getElementById("L18").style.backgroundColor = "red"
-        }else if(posicaol18 == 2 || l18 == palavraCerta[2]){
-            document.getElementById("L18").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L18").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol19 == -1){
-            document.getElementById("L19").style.backgroundColor = "red"
-        }else if(posicaol19 == 3 || l19 == palavraCerta[3]){
-            document.getElementById("L19").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L19").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol20 == -1){
-            document.getElementById("L20").style.backgroundColor = "red"
-        }else if(posicaol20 == 4 || l20 == palavraCerta[4]){
-            document.getElementById("L20").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L20").style.backgroundColor = "#D3AD69"
-        }
-
-        document.getElementById("L16").disabled = true
-        document.getElementById("L17").disabled = true
-        document.getElementById("L18").disabled = true
-        document.getElementById("L19").disabled = true
-        document.getElementById("L20").disabled = true
-
-        document.getElementById("L21").disabled = false
-        document.getElementById("L22").disabled = false
-        document.getElementById("L23").disabled = false
-        document.getElementById("L24").disabled = false
-        document.getElementById("L25").disabled = false
-
-        document.getElementById("L21").style.backgroundColor = "transparent"
-        document.getElementById("L22").style.backgroundColor = "transparent"
-        document.getElementById("L23").style.backgroundColor = "transparent"
-        document.getElementById("L24").style.backgroundColor = "transparent"
-        document.getElementById("L25").style.backgroundColor = "transparent"
-
-        document.getElementById("bttn4").style.display = "none"
-        document.getElementById("bttn5").style.display = "inline"
-    }else{
-        alert("Preencha todos os campos")
-    }
-    setTimeout(() => {if((posicaol16 == 0 || l16 == palavraCerta[0]) && (posicaol17 == 1 || l17 == palavraCerta[1]) && (posicaol18 == 2 || l18 == palavraCerta[2]) 
-        && (posicaol19 == 3 || l19 == palavraCerta[3]) && (posicaol20 == 4 || l20 == palavraCerta[4]) ){
-            document.getElementById("resultado").innerText = "Você acertou"
-            document.getElementById("resultado").style.backgroundColor = "green"
-
-            document.getElementById("L21").disabled = true
-            document.getElementById("L22").disabled = true
-            document.getElementById("L23").disabled = true
-            document.getElementById("L24").disabled = true
-            document.getElementById("L25").disabled = true
-
-            document.getElementById("L21").style.backgroundColor = "#4C4347"
-            document.getElementById("L22").style.backgroundColor = "#4C4347"
-            document.getElementById("L23").style.backgroundColor = "#4C4347"
-            document.getElementById("L24").style.backgroundColor = "#4C4347"
-            document.getElementById("L25").style.backgroundColor = "#4C4347"
-
-        }}, 0)
-}
-
-
-//Função para localizar as letras correspondentes da quinta linha
-function localizar5(){
-
-    //Variáveis de valor dos inputs
-    let l21 = document.getElementById("L21").value
-    let l22 = document.getElementById("L22").value
-    let l23 = document.getElementById("L23").value
-    let l24 = document.getElementById("L24").value
-    let l25 = document.getElementById("L25").value
-
-    //Variáveis da posição das letras
-    var posicaol21 = palavraCerta.indexOf(l21)
-    var posicaol22 = palavraCerta.indexOf(l22)
-    var posicaol23 = palavraCerta.indexOf(l23)
-    var posicaol24 = palavraCerta.indexOf(l24)
-    var posicaol25 = palavraCerta.indexOf(l25)
-
-
-    //Condicionais para verificar se o posicionamento das letras está correto
-    if(l21 != "" && l22 != "" && l23 != "" && l24 != "" && l25 != ""){
-        if(posicaol21 == -1){
-            document.getElementById("L21").style.backgroundColor = "red"
-        }else if(posicaol21 == 0 || l21 == palavraCerta[0]){
-            document.getElementById("L21").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L21").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol22 == -1){
-            document.getElementById("L22").style.backgroundColor = "red"
-        }else if(posicaol22 == 1 || l22 == palavraCerta[1]){
-            document.getElementById("L22").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L22").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol23 == -1){
-            document.getElementById("L23").style.backgroundColor = "red"
-        }else if(posicaol23 == 2 || l23 == palavraCerta[2]){
-            document.getElementById("L23").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L23").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol24 == -1){
-            document.getElementById("L24").style.backgroundColor = "red"
-        }else if(posicaol24 == 3 || l24 == palavraCerta[3]){
-            document.getElementById("L24").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L24").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol25 == -1){
-            document.getElementById("L25").style.backgroundColor = "red"
-        }else if(posicaol25 == 4 || l25 == palavraCerta[4]){
-            document.getElementById("L25").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L25").style.backgroundColor = "#D3AD69"
-        }
-
-        document.getElementById("L21").disabled = true
-        document.getElementById("L22").disabled = true
-        document.getElementById("L23").disabled = true
-        document.getElementById("L24").disabled = true
-        document.getElementById("L25").disabled = true
-
-        document.getElementById("L26").disabled = false
-        document.getElementById("L27").disabled = false
-        document.getElementById("L28").disabled = false
-        document.getElementById("L29").disabled = false
-        document.getElementById("L30").disabled = false
-
-        document.getElementById("L26").style.backgroundColor = "transparent"
-        document.getElementById("L27").style.backgroundColor = "transparent"
-        document.getElementById("L28").style.backgroundColor = "transparent"
-        document.getElementById("L29").style.backgroundColor = "transparent"
-        document.getElementById("L30").style.backgroundColor = "transparent"
-
-        document.getElementById("bttn5").style.display = "none"
-        document.getElementById("bttn6").style.display = "inline"
-    }else{
-        alert("Preencha todos os campos")
-    }
-    setTimeout(() => {if((posicaol21 == 0 || l21 == palavraCerta[0]) && (posicaol22 == 1 || l22 == palavraCerta[1]) && (posicaol23 == 2 || l23 == palavraCerta[2]) 
-        && (posicaol24 == 3 || l24 == palavraCerta[3]) && (posicaol25 == 4 || l25 == palavraCerta[4]) ){
-            document.getElementById("resultado").innerText = "Você acertou"
-            document.getElementById("resultado").style.backgroundColor = "green"
-
-            document.getElementById("L26").disabled = true
-            document.getElementById("L27").disabled = true
-            document.getElementById("L28").disabled = true
-            document.getElementById("L29").disabled = true
-            document.getElementById("L30").disabled = true
-
-            document.getElementById("L26").style.backgroundColor = "#4C4347"
-            document.getElementById("L27").style.backgroundColor = "#4C4347"
-            document.getElementById("L28").style.backgroundColor = "#4C4347"
-            document.getElementById("L29").style.backgroundColor = "#4C4347"
-            document.getElementById("L30").style.backgroundColor = "#4C4347"
-
-        }}, 0)
-}
-
-
-
-//Função para localizar as letras correspondentes da sexta linha
-function localizar6(){
-
-    //Variáveis de valor dos inputs
-    let l26 = document.getElementById("L26").value
-    let l27 = document.getElementById("L27").value
-    let l28 = document.getElementById("L28").value
-    let l29 = document.getElementById("L29").value
-    let l30 = document.getElementById("L30").value
-
-    //Variáveis da posição das letras
-    var posicaol26 = palavraCerta.indexOf(l26)
-    var posicaol27 = palavraCerta.indexOf(l27)
-    var posicaol28 = palavraCerta.indexOf(l28)
-    var posicaol29 = palavraCerta.indexOf(l29)
-    var posicaol30 = palavraCerta.indexOf(l30)
-
-
-    //Condicionais para verificar se o posicionamento das letras está correto
-    if(l26 != "" && l27 != "" && l28 != "" && l29 != "" && l30 != ""){
-        if(posicaol26 == -1){
-            document.getElementById("L26").style.backgroundColor = "red"
-        }else if(posicaol26 == 0 || l26 == palavraCerta[0]){
-            document.getElementById("L26").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L26").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol27 == -1){
-            document.getElementById("L27").style.backgroundColor = "red"
-        }else if(posicaol27 == 1 || l27 == palavraCerta[1]){
-            document.getElementById("L27").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L27").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol28 == -1){
-            document.getElementById("L28").style.backgroundColor = "red"
-        }else if(posicaol28 == 2 || l28 == palavraCerta[2]){
-            document.getElementById("L28").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L28").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol29 == -1){
-            document.getElementById("L29").style.backgroundColor = "red"
-        }else if(posicaol29 == 3 || l29 == palavraCerta[3]){
-            document.getElementById("L29").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L29").style.backgroundColor = "#D3AD69"
-        }
-
-        if(posicaol30 == -1){
-            document.getElementById("L30").style.backgroundColor = "red"
-        }else if(posicaol30 == 4 || l30 == palavraCerta[4]){
-            document.getElementById("L30").style.backgroundColor = "green"
-        }else{
-            document.getElementById("L30").style.backgroundColor = "#D3AD69"
-        }
-
-        document.getElementById("L26").disabled = true
-        document.getElementById("L27").disabled = true
-        document.getElementById("L28").disabled = true
-        document.getElementById("L29").disabled = true
-        document.getElementById("L30").disabled = true
-
-        document.getElementById("bttn5").style.display = "none"
-        document.getElementById("bttn6").style.display = "inline"
-    }else{
-        alert("Preencha todos os campos")
-    }    
-    setTimeout(() => {if((posicaol26 == 0 || l26 == palavraCerta[0]) && (posicaol27 == 1 || l27 == palavraCerta[1]) && (posicaol28 == 2 || l28 == palavraCerta[2]) 
-        && (posicaol29 == 3 || l29 == palavraCerta[3]) && (posicaol30 == 4 || l30 == palavraCerta[4]) ){
-            document.getElementById("resultado").innerText = "Você acertou"
-            document.getElementById("resultado").style.backgroundColor = "green"
-        }}, 0)
 }
